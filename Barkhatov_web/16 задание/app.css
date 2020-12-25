@@ -1,0 +1,64 @@
+#form{
+	font-family: 'Times New Roman';
+	font-weight: 500
+}
+
+div input {
+    margin-left: 150px;
+    height: 27px;
+}
+
+.scale:hover{
+	transform: scale(1.02);
+}
+
+.url{
+    margin-left: 135px;
+}
+
+.url:hover{
+    transform: scale(1.02);
+    margin-left: 135px;
+}
+
+div input:required {
+    background: url(невалид.png) right no-repeat;
+    border-color: red;
+}
+div input:required:valid {
+    background: url(валид.png) right no-repeat; 
+    border-color: rgb(18, 218, 18);
+}
+.dws{
+    position: relative;
+    color: white;
+    width: 130px;
+    height: 25px;
+    margin-left: 195px;
+    background: linear-gradient(to top, #4c750a, #a1e92d );
+    border-radius: 5px;
+    left: 6px;
+    top: 2px;
+}
+
+.dws:hover{
+	transform: scale(1.02);
+}
+.hr1{
+	opacity: 0.3;
+}
+
+#Masage{
+    display: inline;
+    float: left;
+}
+
+textarea{
+    background: url(Галочка.png) right no-repeat; 
+    border-color: rgb(18, 218, 18);
+}
+
+#text{
+    display: inline-block;
+    margin-left: 142px;
+}

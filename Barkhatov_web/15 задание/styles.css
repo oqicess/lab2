@@ -1,0 +1,48 @@
+a {
+    color: #98601A;
+    text-decoration: none;
+}
+h1, h3 {
+    color: #98601A;
+}
+.ramka {
+    border-left: 1px solid #ffa033;
+    border-right: 1px solid #ffa033;
+    border-bottom: 1px solid #ffa033;
+}
+.centr {
+    text-align: center;
+}
+.menu {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background: #ffa033;
+}
+.menuShapka {
+    padding: 0 25px;
+    color: white;
+    font-weight: bold;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuShapka-active {
+    background: white;
+    color: #ffa033;
+}
+.content {
+    padding: 10px;
+    color: #ffa033;
+}
+.down {
+    text-align: center;
+    margin: 15px 0;
+}
+.down__item {
+    font-weight: bold;
+    color: #98601A;
+    display: inline;
+    margin-left: 25px;
+}

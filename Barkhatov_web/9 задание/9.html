@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table{
+font-size:15px;
+}
+td {
+    border:1px solid;
+    font-family:Arial;
+    font-weight:800;
+    width:200px;
+    height:60px;
+    }
+.tt { 
+    color: white;
+    background-color: #99ccff;
+}
+
+.table td {
+    border: 1px solid #888;
+	padding: 10px;
+	vertical-align: middle;
+	position: relative;
+}
+
+.table tr:hover td {
+	background: #42ff9e;
+}
+.table tr:hover td:after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	border-top: 3px solid red;
+	border-bottom: 3px solid red;
+}
+
+/* Левая рамка первой ячейки */
+.table tr:hover td:first-child:after {
+	border-left: 3px solid red;
+}
+
+/* Правая рамка последней ячейки */
+.table tr:hover td:last-child:after {
+	border-right: 3px solid red;
+	width: auto;
+}
+.i{
+    text-align:center;
+}
+
+</style>
+</head>
+<body>
+<table class="table">
+    <tr class="tt">
+        <td style="width:20px">Company</td>
+        <td class="i">Q1</td>
+        <td class="i">Q2</td>
+        <td class="i">Q3</td>
+        <td class="i">Q4</td>
+    </tr>
+
+    <tr>
+        <td bgcolor="#99ccff" style="color:white">Microsoft</td>
+        <td bgcolor="#cfeeff" class="i">20.3</td>
+        <td bgcolor="#cfeeff" class="i">30.5</td>
+        <td bgcolor="#cfeeff" class="i">23.5</td>
+        <td bgcolor="#cfeeff" class="i">40.3</td>
+    </tr>
+    <tr>
+        <td bgcolor="#99ccff" style="color:white">Google</td>
+        <td bgcolor="#cfeeff" class="i">50.2</td>
+        <td bgcolor="#cfeeff" class="i">40.63</td>
+        <td bgcolor="#cfeeff" class="i">45.23</td>
+        <td bgcolor="#cfeeff" class="i">39.3</td>
+    </tr>
+    <tr>
+        <td bgcolor="#99ccff" style="color:white">Apple</td>
+        <td bgcolor="#cfeeff" class="i">25.4</td>
+        <td bgcolor="#cfeeff" class="i">30.2</td>
+        <td bgcolor="#cfeeff" class="i">33.3</td>
+        <td bgcolor="#cfeeff" class="i">36.7</td>
+    </tr>
+    <tr>
+        <td bgcolor="#99ccff" style="color:white">IBM</td>
+        <td bgcolor="#cfeeff" class="i">20.4</td>
+        <td bgcolor="#cfeeff" class="i">15.6</td>
+        <td bgcolor="#cfeeff" class="i">22.3</td>
+        <td bgcolor="#cfeeff" class="i">29.3</td>
+    </tr>
+
+</table>
+</body>
+</html>
